@@ -1,0 +1,15 @@
+---
+const pathname = Astro.url.pathname.replace(/\/$/, '') || '/';
+const isActive = (href: string) => {
+  if (href === '/') return pathname === '/';
+  return pathname === href || pathname.startsWith(href + '/');
+};
+---
+
+<header class="site-header">
+  <a class="brand" href="/">Juthika Saxena</a>
+  <nav class="site-nav" aria-label="Primary navigation">
+    <a href="/" aria-current={isActive('/') ? 'page' : undefined}>About</a>
+    <a href="/writings" aria-current={isActive('/writings') ? 'page' : undefined}>Writings</a>
+  </nav>
+</header>

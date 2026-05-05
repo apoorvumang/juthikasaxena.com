@@ -1,0 +1,137 @@
+---
+import Base from '../layouts/Base.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<Base title={SITE_TITLE} description={SITE_DESCRIPTION}>
+  <section class="bio">
+    <img class="bio-photo" src="/headshot.jpeg" alt="Portrait of Juthika Saxena" />
+    <div>
+      <p class="eyebrow">About</p>
+      <h1>Juthika Saxena</h1>
+      <p class="lead">
+        I'm a finance transformation consultant at
+        <a href="https://linkedin.com/in/dasjuthika" target="_blank" rel="noreferrer">PwC</a>,
+        working with organizations to improve finance processes, reporting,
+        controls, and technology-led ways of working. My work sits at the
+        intersection of finance, operations, people, and systems &mdash; helping
+        teams move from fragmented, manual processes to cleaner, more
+        insight-driven ways of working.
+      </p>
+    </div>
+  </section>
+
+  <p>
+    Beyond consulting, I'm interested in how AI can make finance and business
+    workflows faster, clearer, and more practical. I'm also involved in
+    entrepreneurial ventures including <strong>Empire Raas</strong> and
+    <a href="https://everything3dindia.com" target="_blank" rel="noreferrer"><strong>Everything 3D</strong></a>,
+    which keep me close to customers, brand-building, operations, and
+    real-world execution.
+  </p>
+
+  <p>
+    Outside work, I'm a mother and someone who takes fitness seriously. For me,
+    motherhood and workouts are not separate from my professional life &mdash;
+    they shape how I think about discipline, energy, ambition, and growth. I
+    share bits of that side of life on
+    <a href="https://instagram.com/juthika.saxena" target="_blank" rel="noreferrer">Instagram</a>.
+  </p>
+
+  <h2>What I do</h2>
+  <p>
+    My work and interests sit across finance transformation, AI, entrepreneurship,
+    and personal discipline. These may look like separate areas, but for me they
+    share one thread: building better systems &mdash; at work, in business, and
+    in life.
+  </p>
+
+  <div class="cards">
+    <article>
+      <h3>Finance transformation</h3>
+      <p>
+        Process improvement, reporting, controls, operating models, stakeholder
+        management, and technology-led change.
+      </p>
+    </article>
+
+    <article>
+      <h3>AI experiments</h3>
+      <p>
+        Practical use cases for AI in finance and consulting &mdash; documentation,
+        analysis, reporting, synthesis, and productivity.
+      </p>
+    </article>
+
+    <article>
+      <h3>Entrepreneurial ventures</h3>
+      <p>
+        Through Empire Raas and
+        <a href="https://everything3dindia.com" target="_blank" rel="noreferrer">Everything 3D</a>,
+        I stay close to the realities of building a business: customers,
+        branding, operations, and execution.
+      </p>
+    </article>
+
+    <article>
+      <h3>Motherhood &amp; fitness</h3>
+      <p>
+        Motherhood keeps me grounded. Fitness keeps me disciplined. Both shape
+        how I think about time, energy, consistency, and growth.
+      </p>
+    </article>
+  </div>
+
+  <h2>Find me online</h2>
+  <p>I occasionally share updates, reflections, and work across these spaces.</p>
+
+  <div class="icon-links">
+    <a
+      class="icon-link"
+      href="https://linkedin.com/in/dasjuthika"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="LinkedIn"
+      title="LinkedIn"
+    >
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path
+          fill="currentColor"
+          d="M20.452 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.357V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.265 2.37 4.265 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+        />
+      </svg>
+    </a>
+
+    <a
+      class="icon-link"
+      href="https://instagram.com/juthika.saxena"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Instagram"
+      title="Instagram"
+    >
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path
+          fill="currentColor"
+          d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+        />
+      </svg>
+    </a>
+
+    <a
+      class="icon-link"
+      href="https://everything3dindia.com"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Everything 3D"
+      title="Everything 3D"
+    >
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9.5" />
+        <path d="M2.5 12h19" />
+        <path d="M12 2.5c2.7 2.6 4.2 6 4.2 9.5s-1.5 6.9-4.2 9.5" />
+        <path d="M12 2.5c-2.7 2.6-4.2 6-4.2 9.5s1.5 6.9 4.2 9.5" />
+      </svg>
+    </a>
+  </div>
+</Base>
