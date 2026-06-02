@@ -12,7 +12,7 @@ work, consulting, motherhood, fitness, and the discipline it takes to hold
 those threads together.
 
 I don't expect to write often — I expect to write **honestly**. If something
-sits with me long enough, I'll try to put it here.
+sits with me long enough, I'll try to put it here. I will write here soon.
 
 ## What's coming
 
