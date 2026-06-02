@@ -4,134 +4,255 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 ---
 
 <Base title={SITE_TITLE} description={SITE_DESCRIPTION}>
-  <section class="bio">
-    <img class="bio-photo" src="/headshot.jpeg" alt="Portrait of Juthika Saxena" />
-    <div>
-      <p class="eyebrow">About</p>
+  <section class="hero-panel">
+    <div class="hero-copy">
+      <p class="eyebrow">Finance Transformation | Operating Model | AI Enablement</p>
       <h1>Juthika Saxena</h1>
-      <p class="lead">
-        I'm a finance transformation consultant at
-        <a href="https://linkedin.com/in/dasjuthika" target="_blank" rel="noreferrer">PwC</a>,
-        working with organizations to improve finance processes, reporting,
-        controls, and technology-led ways of working. My work sits at the
-        intersection of finance, operations, people, and systems &mdash; helping
-        teams move from fragmented, manual processes to cleaner, more
-        insight-driven ways of working.
+      <p class="lead hero-lead">
+        Finance transformation consultant helping organizations modernize
+        treasury, reporting, shared services, and working capital operations
+        through sharper process design, analytics, and technology-led execution.
       </p>
+      <p class="hero-summary">
+        Currently a Senior Associate at
+        <a href="https://linkedin.com/in/dasjuthika" target="_blank" rel="noreferrer">PwC</a>,
+        with experience across enterprise finance, category strategy, operations,
+        and venture building. My work spans client problem-solving from diagnosis
+        to delivery, with a focus on turning fragmented finance environments into
+        scalable, insight-led operating models.
+      </p>
+      <div class="hero-actions">
+        <a class="button-primary" href="https://linkedin.com/in/dasjuthika" target="_blank" rel="noreferrer">
+          View LinkedIn
+        </a>
+        <a class="button-secondary" href="/writings">
+          Read Writings
+        </a>
+      </div>
+    </div>
+
+    <aside class="hero-aside">
+      <img class="bio-photo bio-photo-square" src="/headshot.jpeg" alt="Portrait of Juthika Saxena" />
+      <div class="profile-note">
+        <p class="profile-label">Based in</p>
+        <p>Bengaluru, India</p>
+      </div>
+      <div class="profile-note">
+        <p class="profile-label">Core sectors</p>
+        <p>Finance transformation, treasury, GBS, cost modelling, analytics</p>
+      </div>
+      <div class="profile-note">
+        <p class="profile-label">Education</p>
+        <p>IIM Lucknow MBA | IIT Guwahati B.Tech</p>
+      </div>
+    </aside>
+  </section>
+
+  <section class="metrics-row" aria-label="Selected impact metrics">
+    <article class="metric-card">
+      <p class="metric-value">20+</p>
+      <p class="metric-label">finance transformation projects delivered across R2R, P2P, O2C and working capital</p>
+    </article>
+    <article class="metric-card">
+      <p class="metric-value">$1M+</p>
+      <p class="metric-label">technology cost and transformation deal value enabled through client baseline modelling</p>
+    </article>
+    <article class="metric-card">
+      <p class="metric-value">10+</p>
+      <p class="metric-label">banking integrations deployed for treasury transformation programs</p>
+    </article>
+    <article class="metric-card">
+      <p class="metric-value">100+</p>
+      <p class="metric-label">professionals trained through internal capability-building and project readiness sessions</p>
+    </article>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading">
+      <p class="eyebrow">What I Work On</p>
+      <h2>Consulting at the intersection of finance, systems, and execution</h2>
+    </div>
+    <div class="service-grid">
+      <article>
+        <h3>Finance transformation</h3>
+        <p>
+          Future-state design, process assessments, shared services modelling,
+          governance, and cross-functional transformation planning.
+        </p>
+      </article>
+      <article>
+        <h3>Treasury and cash visibility</h3>
+        <p>
+          Treasury stack deployment, payment process design, connectivity
+          integration, and working capital reporting for decision-ready finance teams.
+        </p>
+      </article>
+      <article>
+        <h3>Analytics and AI enablement</h3>
+        <p>
+          Power BI dashboards, cost models, operational analytics, and practical
+          AI tooling that improves insight generation without disrupting delivery.
+        </p>
+      </article>
+      <article>
+        <h3>Operating rigor</h3>
+        <p>
+          Stakeholder alignment, training, implementation support, and execution
+          discipline shaped by roles in high-growth operations and venture building.
+        </p>
+      </article>
     </div>
   </section>
 
-  <p>
-    Beyond consulting, I'm interested in how AI can make finance and business
-    workflows faster, clearer, and more useful. I'm also involved in
-    entrepreneurial ventures including <strong>Empire Raas</strong> and
-    <a href="https://everything3dindia.com" target="_blank" rel="noreferrer"><strong>Everything 3D</strong></a>,
-    which keep me close to customers, brand-building, operations, and
-    real-world execution.
-  </p>
+  <section class="section-block">
+    <div class="section-heading">
+      <p class="eyebrow">Experience</p>
+      <h2>Professional journey</h2>
+    </div>
 
-  <p>
-    Outside work, I'm a mother and someone who takes fitness seriously. For me,
-    motherhood and workouts are not separate from my professional life &mdash;
-    they shape how I think about discipline, energy, ambition, and growth. I
-    share bits of that side of life on
-    <a href="https://instagram.com/juthika.saxena" target="_blank" rel="noreferrer">Instagram</a>.
-  </p>
+    <div class="timeline">
+      <article class="timeline-item">
+        <div class="timeline-meta">
+          <p class="timeline-company">PwC</p>
+          <p class="timeline-role">Senior Associate</p>
+          <p class="timeline-period">Jun 2022 - Present</p>
+        </div>
+        <div class="timeline-content">
+          <p>
+            Delivering finance transformation and platform development work across
+            treasury, working capital, GBS, TCO modelling, and enterprise process redesign.
+          </p>
+          <ul class="timeline-points">
+            <li>Deployed Kyriba treasury capabilities across 10+ banking integrations supporting roughly $2bn in annual payment flows.</li>
+            <li>Led global delivery of working capital dashboards in Power BI, helping secure a $250K pilot engagement.</li>
+            <li>Built standardized GBS and TCO cost models to accelerate client prototyping and decision-making.</li>
+            <li>Developed an AI-powered BI chatbot in Python connected to dashboard data with reported 99% query accuracy.</li>
+            <li>Led 20+ projects across R2R, P2P, O2C and working capital, including assessments, gap analyses and future-state design.</li>
+          </ul>
+        </div>
+      </article>
 
-  <h2>What I do</h2>
-  <p>
-    My work and interests sit across finance transformation, AI, entrepreneurship,
-    and personal discipline. These may look like separate areas, but for me they
-    share one thread: building better systems &mdash; at work, in business, and
-    in life.
-  </p>
+      <article class="timeline-item">
+        <div class="timeline-meta">
+          <p class="timeline-company">Stanza Living</p>
+          <p class="timeline-role">Operations Manager</p>
+          <p class="timeline-period">Jan 2018 - Nov 2018</p>
+        </div>
+        <div class="timeline-content">
+          <p>
+            Managed vendor operations, working capital routines, and cross-functional execution
+            in a fast-scaling consumer operations environment.
+          </p>
+          <ul class="timeline-points">
+            <li>Negotiated vendor contracts and rolled out services across 15 North Delhi properties.</li>
+            <li>Reduced complaint management turnaround time by 66% through CRM process redesign.</li>
+            <li>Saved 80+ hours of manual effort by automating rent collection and attendance dashboards.</li>
+            <li>Led end-to-end operations for a 250-bed South Delhi portfolio representing 13% of the business.</li>
+          </ul>
+        </div>
+      </article>
 
-  <div class="cards">
-    <article>
-      <h3>Finance transformation</h3>
-      <p>
-        Process improvement, reporting, controls, operating models, stakeholder
-        management, and technology-led change.
-      </p>
-    </article>
+      <article class="timeline-item">
+        <div class="timeline-meta">
+          <p class="timeline-company">Ola Cabs</p>
+          <p class="timeline-role">Business Analyst</p>
+          <p class="timeline-period">Jul 2016 - Jul 2017</p>
+        </div>
+        <div class="timeline-content">
+          <p>
+            Worked on launch strategy, category growth, and data-backed commercial interventions
+            in one of India&apos;s highest-velocity mobility businesses.
+          </p>
+          <ul class="timeline-points">
+            <li>Led the Kolkata launch of rental and outstation categories with cross-functional delivery teams.</li>
+            <li>Improved product acceptance fivefold in two months through targeted partner and driver training.</li>
+            <li>Designed a three-factor incentive structure that increased supply by 16% while reducing incentive per booking by 36%.</li>
+            <li>Drove 30+ segmented campaigns that increased quarterly app sessions by 17%.</li>
+          </ul>
+        </div>
+      </article>
 
-    <article>
-      <h3>AI experiments</h3>
-      <p>
-        Practical use cases for AI in finance and consulting &mdash; documentation,
-        analysis, reporting, synthesis, and productivity.
-      </p>
-    </article>
+      <article class="timeline-item">
+        <div class="timeline-meta">
+          <p class="timeline-company">NatWest Group</p>
+          <p class="timeline-role">Strategy Consultant Intern</p>
+          <p class="timeline-period">Apr 2021 - Jun 2021</p>
+        </div>
+        <div class="timeline-content">
+          <p>
+            Focused on customer operations analytics and capability enhancement through NLP-led automation.
+          </p>
+          <ul class="timeline-points">
+            <li>Built an NLP-based query categorization pipeline that saved 90 manual hours per month.</li>
+            <li>Recommended chat transfer interventions from analysis of 700K+ queries, contributing to a 17% NPS uplift opportunity.</li>
+            <li>Helped improve CSAT by 23% through revised scripts and service model adjustments.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
 
-    <article>
-      <h3>Entrepreneurial ventures</h3>
-      <p>
-        Through Empire Raas and
-        <a href="https://everything3dindia.com" target="_blank" rel="noreferrer">Everything 3D</a>,
-        I stay close to the realities of building a business: customers,
-        branding, operations, and execution.
-      </p>
-    </article>
+  <section class="section-block section-split">
+    <div>
+      <div class="section-heading">
+        <p class="eyebrow">Entrepreneurial Work</p>
+        <h2>Operating beyond consulting</h2>
+      </div>
+      <div class="venture-grid">
+        <article>
+          <h3>Everything 3D</h3>
+          <p class="venture-meta">Co-founder | 2024 - Present</p>
+          <p>
+            Built a custom 3D-printing business serving personal and corporate gifting
+            use cases, with delivery across 500+ orders and go-to-market execution
+            spanning Shopify, Instagram, Meta Ads, and direct outreach.
+          </p>
+        </article>
+        <article>
+          <h3>Empire Raas</h3>
+          <p class="venture-meta">Founder | 2018 - 2019</p>
+          <p>
+            Built an ecommerce platform for Assamese weavers, partnered with NGOs,
+            and designed a model that shared profits with artisans while growing
+            reach through local brand-building and digital campaigns.
+          </p>
+        </article>
+      </div>
+    </div>
 
-    <article>
-      <h3>Motherhood &amp; fitness</h3>
-      <p>
-        Motherhood keeps me grounded. Fitness keeps me disciplined. Both shape
-        how I think about time, energy, consistency, and growth.
-      </p>
-    </article>
-  </div>
+    <aside class="credentials-panel">
+      <div>
+        <p class="eyebrow">Education</p>
+        <h3>IIM Lucknow</h3>
+        <p>MBA, Finance</p>
+        <p class="credential-year">2020 - 2022</p>
+      </div>
+      <div>
+        <h3>IIT Guwahati</h3>
+        <p>B.Tech, Civil Engineering</p>
+        <p class="credential-year">2012 - 2016</p>
+      </div>
+      <div>
+        <p class="eyebrow">Leadership</p>
+        <p>Hiring lead at PwC and Stanza Living, with additional leadership across entrepreneurship and student communities.</p>
+      </div>
+      <div>
+        <p class="eyebrow">Beyond work</p>
+        <p>Table tennis gold medalist, community engagement volunteer, and disciplined operator shaped by sport and execution.</p>
+      </div>
+    </aside>
+  </section>
 
-  <h2>Find me online</h2>
-  <p>I occasionally share updates, reflections, and work across these spaces.</p>
-
-  <div class="icon-links">
-    <a
-      class="icon-link"
-      href="https://linkedin.com/in/dasjuthika"
-      target="_blank"
-      rel="noreferrer"
-      aria-label="LinkedIn"
-      title="LinkedIn"
-    >
-      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path
-          fill="currentColor"
-          d="M20.452 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.357V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.265 2.37 4.265 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
-        />
-      </svg>
-    </a>
-
-    <a
-      class="icon-link"
-      href="https://instagram.com/juthika.saxena"
-      target="_blank"
-      rel="noreferrer"
-      aria-label="Instagram"
-      title="Instagram"
-    >
-      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path
-          fill="currentColor"
-          d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
-        />
-      </svg>
-    </a>
-
-    <a
-      class="icon-link"
-      href="https://everything3dindia.com"
-      target="_blank"
-      rel="noreferrer"
-      aria-label="Everything 3D"
-      title="Everything 3D"
-    >
-      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="12" cy="12" r="9.5" />
-        <path d="M2.5 12h19" />
-        <path d="M12 2.5c2.7 2.6 4.2 6 4.2 9.5s-1.5 6.9-4.2 9.5" />
-        <path d="M12 2.5c-2.7 2.6-4.2 6-4.2 9.5s1.5 6.9 4.2 9.5" />
-      </svg>
-    </a>
-  </div>
+  <section class="contact-band">
+    <div>
+      <p class="eyebrow">Connect</p>
+      <h2>Open to meaningful conversations around finance transformation and operating model change.</h2>
+    </div>
+    <div class="contact-links">
+      <a href="mailto:juthikasaxena@gmail.com">juthikasaxena@gmail.com</a>
+      <a href="https://linkedin.com/in/dasjuthika" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://everything3dindia.com" target="_blank" rel="noreferrer">Everything 3D</a>
+      <a href="https://instagram.com/juthika.saxena" target="_blank" rel="noreferrer">Instagram</a>
+    </div>
+  </section>
 </Base>
